@@ -1,6 +1,6 @@
 import './App.css';
 
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 
 
 // Pages
@@ -29,6 +29,10 @@ function App() {
             <Route path="/products/:id" element={<Product />} />
 
 
+            { /** Redirecionamento */ }
+            <Route path="/company" element={<Navigate to="/about" />} />
+
+            {/** 404 */}
             <Route path="*" element={<NotFound />} />
 
           </Routes>

@@ -11,7 +11,6 @@ const Home = () => {
 
     return (
         <div>
-            <h2>Home</h2>
             {error && <p>{error}</p> }
             {loading && <p>Carregando...</p> }
 
