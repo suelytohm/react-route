@@ -4,5 +4,10 @@
         {"id": 2, "name": "Calça Feminina", "price": 50},
         {"id": 3, "name": "Calça Jeans", "price": 50}
 
+    ],
+    "company": [
+        {"id": 1, "name": "DOT Company", "active": true},
+        {"id": 2, "name": "DOT Company 2", "active": true}
+
     ]
 }
