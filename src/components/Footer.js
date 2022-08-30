@@ -11,7 +11,7 @@ const Footer = () => {
     return (
         <footer>
             {error && <p>Ocorreu um erro</p>}
-            {loading && <p>Carregando...</p>}
+            {loading && <p>...</p>}
             {empresa && <p>{empresa.name} - Todos os Direitos Reservados</p> }
         </footer>
     )
